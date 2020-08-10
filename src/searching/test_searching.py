@@ -23,7 +23,7 @@ class RecursiveSortingTests(unittest.TestCase):
 
     #     self.assertEqual(agnostic_binary_search(descending, 49), 3)
     #     self.assertEqual(agnostic_binary_search(descending, -17), 7)
-    #     self.assertEqual(agnostic_binary_search(descending, -1), -1)
+        self.assertEqual(agnostic_binary_search(descending, -1), -1)
 
 if __name__ == '__main__':
     unittest.main()
